@@ -1,0 +1,10 @@
+apply plugin: 'groovy'
+apply plugin: 'idea'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'eu.inn:raml-parser-2:1.0.1.35'
+}
